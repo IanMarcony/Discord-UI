@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   *{
@@ -19,7 +19,9 @@ export default createGlobalStyle`
   *, button, input{
     border: 0;
     outline: 0;
-    font: 16px 400 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
   }
 
   :root {
@@ -45,6 +47,4 @@ export default createGlobalStyle`
     --rocketseat: #6633cc;
   }
 
-`
-
-
+`;
